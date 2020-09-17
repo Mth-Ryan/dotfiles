@@ -2,7 +2,7 @@
 This files and the installation process below are basically my first steps on a clear Arch linux instalLation (Just base-devel, dhcpcd, iwd and sudo). If is you case, just install a display manager after this process and have fun!
 
 ##### Polybar theme credit
-The Polybar config used on this dotfilse are a simple modification of one theme of this repository : https://github.com/adi1090x/polybar-themes/blob/master/polybar-8/modules.ini In fact, this repository is definitely the best place to find interesting themes for Polybar.
+The Polybar config used on this dotfiles are a simple modification of one theme of this repository : https://github.com/adi1090x/polybar-themes/blob/master/polybar-8/modules.ini In fact, this repository is definitely the best place to find interesting themes for Polybar.
 
 
 ## Preview:
