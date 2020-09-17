@@ -100,9 +100,9 @@ mkdir -p $HOME/Projects/go/bin
 mkdir $HOME/Projects/go/pkg
 mkdir $HOME/Projects/go/src
 ```
-Reestart the shell again (logout and return or close the terminal and open in graphical interface).
+Restart the shell again (logout and return or close the terminal and open in graphical interface).
 
-Run ```go env``` and check if GOPATH and GOBIN are set to your new folders.
+Run ```$ go env``` and check if GOPATH and GOBIN are set to your new folders.
 
 Open vim and run: ```:GoInstallBinaries``` and if successful: ```:CocInstall coc-go```
 
