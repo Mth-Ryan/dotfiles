@@ -87,6 +87,7 @@ $ cp -r home/.* $HOME/
 $ cp -r config/* $HOME/.config/
 $ mkdir -p $HOME/.local/share/fonts
 $ cp -r config/polybar/fonts/* $HOME/.local/share/fonts/
+$ fc-cache -v
 ```
 
 Time to install the vim plugins. If you don't want the Rust and Go language suport, remove or comment the "Plugin 'fatih/vim-go'" and "Plugin 'rust-lang/rust.vim'" of .vimrc file. And, for any reason you don't want coc.nvim as your code completition frontend, remove or comment "Plugin 'neoclide/coc.nvim'".
