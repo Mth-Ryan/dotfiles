@@ -1,8 +1,8 @@
 # My personal Dotfiles
-This files and the installation process below are basically my first steps on a clear Arch linux instalLation (Just base-devel, dhcpcd, iwd and sudo). If is you case, just install a display manager after this process and have fun!
+This files and the installation process below are basically my first steps on a clear Arch linux installation (Just base-devel, dhcpcd, iwd and sudo). If is you case, just install a display manager after this process and have fun!
 
-##### Polybar theme credit
-The Polybar config used on this dotfiles are a simple modification of one theme of this repository : https://github.com/adi1090x/polybar-themes/blob/master/polybar-8/modules.ini In fact, this repository is definitely the best place to find interesting themes for Polybar.
+##### Polybar theme credit:
+The Polybar config used on this dotfiles are a simple modification of one theme find on this repository : https://github.com/adi1090x/polybar-themes/blob/master/polybar-8/modules.ini In fact, this repository is definitely the best place to find interesting themes for Polybar.
 
 
 ## Preview:
@@ -31,7 +31,7 @@ The instalation require this follow packages:
 ___
 
 #### Install the dependencies:
-Follow this steps for Instalation on Arch Linux:
+Follow this steps for Installation on Arch Linux:
 
 Install all require packages available on official repository:
 
@@ -115,5 +115,5 @@ $ rustup component add rls rust-analysis rust-src
 open vim and run: ```:CocInstall coc-rls```
 ____
 
-The configs of Polybar and i3 may need changes, example: on my old laptop, the name of wireless adapter was wlp3s0, and the actualy config/modules.ini have wlan0 on the network module. In cases like that a simple change one one or two lines can resolve.
+The configs of Polybar and i3 may need changes, example: on my old laptop, the name of wireless adapter was wlp3s0, and the actualy config/modules.ini have wlan0 on the network module. In cases like that a simple change of one or two lines can resolve problems on the modules.
 ____
