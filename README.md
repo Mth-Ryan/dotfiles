@@ -16,6 +16,7 @@ The instalation require this follow packages:
 * Wget
 * Vim (Vundle)
 * i3-gaps
+* Feh
 * Polybar
 * Picom tryone
 * Xfce4 Terminal
@@ -34,7 +35,7 @@ Follow this steps for Instalation on Arch Linux:
 
 Install all require packages available on official repository:
 
-```# pacman -S zsh git wget vim i3-gaps rofi xfce4-terminal ranger gnome-screenshot firefox nodejs yarn go rustup```
+```# pacman -S zsh git wget vim i3-gaps feh rofi xfce4-terminal ranger gnome-screenshot firefox nodejs yarn go rustup```
 
 You can ignore the optional packages, but alterations is required on .vimrc, i3/config files, polybar/modules.ini.
 
