@@ -84,7 +84,7 @@ Clone this repository and copy the files to the appropriate directories:
 $ git clone https://github.com/Math-Ryan/My-personal-Dotfiles
 $ cd My-personal-Dotfiles
 $ cp -r home/.* $HOME/
-$ cp -r confg/* $HOME/.config/
+$ cp -r config/* $HOME/.config/
 $ mkdir -p $HOME/.local/share/fonts
 $ cp -r config/polybar/fonts/* $HOME/.local/share/fonts/
 ```
