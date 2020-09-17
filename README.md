@@ -10,7 +10,7 @@ The Polybar config used on this dotfiles is a simple modification of one theme f
 ___
 #### Dependencies
 
-The instalation require this follow packages:
+The installation require this follow packages:
 * Zsh (Oh my zsh)
 * Git
 * Wget
