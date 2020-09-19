@@ -6,7 +6,10 @@ The Polybar config used on this dotfiles is a simple modification of one theme f
 
 
 ## Preview:
-![Alt text](prints/screenshot.png?raw=true "Preview")
+![Alt text](prints/screenshot1.png?raw=true "Preview")
+___
+
+![Alt text](prints/screenshot2.png?raw=true "Preview")
 ___
 #### Dependencies
 
@@ -18,6 +21,8 @@ The installation require this follow packages:
 * i3-gaps
 * Feh
 * Hack Font
+* Noto Sans Font
+* Font Awesome
 * Polybar
 * Picom tryone
 * Xfce4 Terminal
@@ -36,7 +41,7 @@ Follow this steps for Installation on Arch Linux:
 
 Install all require packages available on official repository:
 
-```# pacman -S zsh git wget vim i3-gaps feh ttf-hack rofi xfce4-terminal ranger gnome-screenshot firefox nodejs yarn go rustup```
+```# pacman -S zsh git wget vim i3-gaps feh ttf-hack ttf-font-awesome noto-fonts rofi xfce4-terminal ranger gnome-screenshot firefox nodejs yarn go rustup```
 
 You can ignore the optional packages, but alterations is required on .vimrc, i3/config files, polybar/modules.ini.
 
@@ -85,9 +90,6 @@ $ git clone https://github.com/Math-Ryan/My-personal-Dotfiles
 $ cd My-personal-Dotfiles
 $ cp -r home/.* $HOME/
 $ cp -r config/* $HOME/.config/
-$ mkdir -p $HOME/.local/share/fonts
-$ cp -r config/polybar/fonts/* $HOME/.local/share/fonts/
-$ fc-cache -v
 ```
 
 Time to install the vim plugins. If you don't want the Rust and Go language suport, remove or comment the "Plugin 'fatih/vim-go'" and "Plugin 'rust-lang/rust.vim'" of .vimrc file. And, for any reason you don't want coc.nvim as your code completition frontend, remove or comment "Plugin 'neoclide/coc.nvim'".
