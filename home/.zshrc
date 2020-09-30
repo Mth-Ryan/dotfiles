@@ -97,10 +97,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
 alias vimconfig="vim ~/.vimrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette_osx.sh"
 export GOROOT=/usr/lib/go
 export GOPATH=$HOME/Projects/go
 export GOBIN=$GOPATH/bin
-export export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin
 
