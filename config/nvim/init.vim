@@ -1,14 +1,15 @@
 syntax on
 set number
 set termguicolors
-"colo cyberpunk "In process...
+colo gruvbox
+highlight Normal guibg=none
+highlight NonText guibg=none
 
 "===========================Vim-Plug==============================="
 
 call plug#begin('~/.config/nvim/plugged')
   Plug 'townk/vim-autoclose'
-  Plug 'etdev/vim-hexcolor'
-  Plug 'thaerkh/vim-indentguides'
+  Plug 'morhetz/gruvbox'
   Plug 'scrooloose/nerdtree'
   Plug 'vim-airline/vim-airline'
   Plug 'keith/swift.vim'
@@ -60,11 +61,6 @@ nmap <C-d> :NERDTreeToggle<CR>
 set expandtab
 set tabstop=2
 set shiftwidth=2
-
-"========================Indent-Guides============================"
-
-let g:indentguides_spacechar = '┆'
-let g:indentguides_tabchar = '|'
 
 "===========================Air-Line=============================="
 
