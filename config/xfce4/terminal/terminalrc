@@ -27,11 +27,11 @@ MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
-FontName=Hack 10
+FontName=Hack Nerd Font Mono 10
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-ColorCursor=#ebebdbdbb2b2
-ColorForeground=#ebebdbdbb2b2
-ColorBackground=#1d1d20202121
-ColorPalette=#282828282828;#cccc24241d1d;#989897971a1a;#d7d799992121;#454585858888;#b1b162628686;#68689d9d6a6a;#a8a899998484;#929283837474;#fbfb49493434;#b8b8bbbb2626;#fafabdbd2f2f;#8383a5a59898;#d3d386869b9b;#8e8ec0c07c7c;#ebebdbdbb2b2
-BackgroundDarkness=0,850000
+ColorCursor=#b2b222222222
+ColorForeground=#ffffffffffff
+ColorBackground=#1e1e1e1e1e1e
+ColorPalette=rgb(30,30,30);rgb(96,104,115);rgb(103,118,126);rgb(116,141,146);rgb(131,168,168);rgb(147,198,193);rgb(163,228,217);rgb(255,255,255);rgb(63,63,63);rgb(96,104,115);rgb(103,118,126);rgb(116,141,146);rgb(131,168,168);rgb(147,198,193);rgb(163,228,217);rgb(255,255,255)
+BackgroundDarkness=1,000000
 
