@@ -1,6 +1,9 @@
 #
 # wm independent hotkeys
 #
+# printscreen
+Print
+  gnome-screenshot
 
 # terminal emulator
 super + Return
