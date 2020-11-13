@@ -1,5 +1,5 @@
 # My personal Dotfiles
-Recriation of this theme: .[https://github.com/Mth-Ryan/My-personal-Dotfiles](www.reddit.com/r/unixporn/comments/7mcl1c/my_cryskull_theme_bspwm_polybar/). It's a "clean-room" recriation, and has its own Gtk and Neovim themes.
+Recriation of this theme: .[My Cryskull Theme](www.reddit.com/r/unixporn/comments/7mcl1c/my_cryskull_theme_bspwm_polybar/). It's a "clean-room" recriation, and has its own Gtk and Neovim themes.
 
 My setup are focused in Go, Tensorflow and Swift for Tensorflow development. So, take a look in neovim config before clone this repository.
 
