@@ -1,7 +1,7 @@
 syntax on
 set number
 set termguicolors
-colo gruvbox
+colo cmonochrome
 highlight Normal guibg=none
 highlight NonText guibg=none
 
@@ -9,9 +9,10 @@ highlight NonText guibg=none
 
 call plug#begin('~/.config/nvim/plugged')
   Plug 'townk/vim-autoclose'
-  Plug 'morhetz/gruvbox'
+  Plug 'Mth-Ryan/cyber-monochrome'
   Plug 'scrooloose/nerdtree'
   Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
   Plug 'keith/swift.vim'
   Plug 'fatih/vim-go'
   Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
@@ -51,6 +52,8 @@ endif
 
 let g:deoplete#enable_at_startup = 1
 
+"Air Line theme
+let g:airline_theme='minimalist'
 
 "==========================Nerd-Tree=============================="
 
@@ -62,7 +65,7 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
-"===========================Air-Line=============================="
+"===========================Coc-Nvim=============================="
 
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
