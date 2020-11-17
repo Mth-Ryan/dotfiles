@@ -13,6 +13,7 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'scrooloose/nerdtree'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  Plug 'lervag/vimtex'
   Plug 'keith/swift.vim'
   Plug 'fatih/vim-go'
   Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
@@ -87,4 +88,15 @@ if has('nvim')
 
 "===========================Vim-Go=============================="
 
-let g:go_fmt_command = "goimports"
+let g:go_fmt_command = 'goimports'
+
+"===========================Latex==============================="
+
+let g:Tex_DefaultTargetFormat='pdf'
+let g:vimtex_view_enabled=1
+let g:vimtex_view_automatic=1
+let g:vimtex_view_general_viewer = 'zathura'
+let g:vimtex_view_method = 'zathura'
+let g:vimtex_compiler_progname = 'nvr'
+let g:tex_flavor = "latex"
+nmap <F8> :set spell spelllang=pt<CR>

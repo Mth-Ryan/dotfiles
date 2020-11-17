@@ -1,7 +1,7 @@
 #
 # wm independent hotkeys
-#
-# printscreen
+
+#Printscreen
 Print
   gnome-screenshot
 
@@ -135,4 +135,8 @@ XF86AudioMute
 	pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 #Brightness
+XF86MonBrightnessUp
+  lux -a 5%
 
+XF86MonBrightnessDown
+  lux -s 5%
